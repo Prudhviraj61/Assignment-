@@ -1,0 +1,33 @@
+#To know the number is perfect number or not
+
+#Initializing a number
+n = int(input('Enter a number to know its perfect number or not'))
+sum = 0
+
+#Logic
+for i in range (1, n):
+    if (n % i == 0):
+        sum = sum + i
+
+#Printing results
+if (sum == n):
+    print('The given number is perfect number')
+else:
+    print('the given number is not a perfect number')
+    
+    Output 1:
+    
+    "C:\Users\home\PycharmProjects\Hello world\venv\Scripts\python.exe" "C:/Users/home/PycharmProjects/Hello world/perfect number.py"
+Enter a number to know its perfect number or not6
+The given number is perfect number
+
+Process finished with exit code 0
+
+   Output 2:
+   
+   "C:\Users\home\PycharmProjects\Hello world\venv\Scripts\python.exe" "C:/Users/home/PycharmProjects/Hello world/perfect number.py"
+Enter a number to know its perfect number or not60
+the given number is not a perfect number
+
+Process finished with exit code 0
+    
