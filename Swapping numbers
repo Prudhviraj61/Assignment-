@@ -1,0 +1,28 @@
+#Swapping of two numbers:
+
+x = input('Enter avalue of x: ')
+y = input('Enter avalue of y: ' )
+
+print('the values x before swapping',x)
+print('The value y before swapping',y)
+
+#Creating a temparary variable and swap the value:
+temp = x
+x = y
+y = temp
+
+#Printing result:
+print('The value of x after swapping : ',x)
+print('The value of y after swapping : ',y)
+
+Output:
+
+"C:\Users\home\PycharmProjects\Hello world\venv\Scripts\python.exe" "C:/Users/home/PycharmProjects/Hello world/swapping of two num.py"
+Enter avalue of x: 8
+Enter avalue of y: 5
+the values x before swapping 8
+The value y before swapping 5
+The value of x after swapping :  5
+The value of y after swapping :  8
+
+Process finished with exit code 0
