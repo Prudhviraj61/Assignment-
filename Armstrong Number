@@ -1,0 +1,29 @@
+#Finding weather the given number is Amstrong number ir not:
+
+num = int(input('Enter a number'))
+sum = 0
+
+#Logic:
+
+temp = num
+while temp > 0:
+    p = temp % 10
+    sum += p**3
+    temp//= 10
+
+    if num == sum:
+        print(num,"is an Armstrong number")
+    else:
+        print(num,"is not a Armstrong number")
+        
+        Output 1:
+        
+        "C:\Users\home\PycharmProjects\Hello world\venv\Scripts\python.exe" "C:/Users/home/PycharmProjects/Hello world/Amstrong number.py"
+Enter a number407
+407 is an Armstrong number
+
+     Output 2:
+     "C:\Users\home\PycharmProjects\Hello world\venv\Scripts\python.exe" "C:/Users/home/PycharmProjects/Hello world/Amstrong number.py"
+Enter a number648
+648 is not a Armstrong number
+     
