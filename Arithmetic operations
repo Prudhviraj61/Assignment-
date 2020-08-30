@@ -1,0 +1,46 @@
+#Printing Arithmetic operations:
+
+a = int(input('Enter first number'))
+b = int(input('Enter second number'))
+
+#Addition:
+c = a + b
+print('Addition result: ',c)
+
+#Subtraction:
+c = a - b
+print('Subtraction result: ',c)
+
+#Multiplication:
+c = a * b
+print('Multiplication results: ',c)
+
+#Division:
+c = a / b
+print('Division results: ',c)
+
+#Modulus:
+c = a % b
+print('Modulus results: ',c)
+
+#Exponent:
+c = a ** b
+print('Exponent results: ',c)
+
+#Floor Division:
+c = a // b
+print('Floor division results: ',c)
+
+output:
+"C:\Users\home\PycharmProjects\Hello world\venv\Scripts\python.exe" "C:/Users/home/PycharmProjects/Hello world/Arithmetic operations.py"
+Enter first number2
+Enter second number3
+Addition result:  5
+Subtraction result:  -1
+Multiplication results:  6
+Division results:  0.6666666666666666
+Modulus results:  2
+Exponent results:  8
+Floor division results:  0
+
+Process finished with exit code 0
